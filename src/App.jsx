@@ -1,4 +1,5 @@
 import './App.css'
+import './sass/_global.scss'
 
 function App() {
 
@@ -9,4 +10,4 @@ function App() {
   )
 }
 
-export { App }
+export default App
