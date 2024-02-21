@@ -1,4 +1,6 @@
+import  omelette  from '../../assets/image-omelette.jpeg'
 import './_recipePage.scss'
+
 
 function RecipePage() {
     return(
@@ -6,7 +8,7 @@ function RecipePage() {
             <div className='layout'>
                 <section className='section--container'>
                     <figure className='section--container__figure'>
-                        <img className='section--container__figure__img--banner' src="" alt="" />
+                        <img className='section--container__figure__img--banner' src={omelette} alt="" />
                     </figure>
                     <article className='section--container__article--content'>
                         <div className='section--container__article--content__div--title'>
